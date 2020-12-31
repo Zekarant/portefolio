@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Portefolio Développeur Web - CHOMEL Colin</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
+	<link rel="stylesheet" type="text/css" href="style2.css">
+</head>
+<body>
+	<div class="loader">
+		<h1>On charge, on charge...</h1>
+	</div>
+	<script>
+		jQuery(window).load(function(){ jQuery(".loader").fadeOut("200"); });
+	</script>
+</body>
+<nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light">
+	<a class="navbar-brand" href="#">CHOMEL Colin</a>
+	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		<span class="navbar-toggler-icon"></span>
+	</button>
+
+	<div class="collapse navbar-collapse" id="navbarSupportedContent">
+		<ul class="navbar-nav ml-auto">
+			<li class="nav-item active">
+				<a class="nav-link" href="index.html">Accueil</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="projets.html">Projets</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="veille.html">Veille technologique</a>
+			</li>
+		</ul>
+	</div>
+</nav>
+<div id="entete">
+	<h1 class="text-center" style="padding-top: 150px;">Veille technologique : Faille XSS</h1>
+</div>
+<hr class="separation">
+<br/>
+<div class="alert alert-primary" role="alert">
+  Voici la veille technologique que j'ai décidé de traiter pour mon épreuve de BTS SIO.
+</div>
+<div class="container-fluid">
+	<h2>Que-ce que la faille XSS ?</h2>
+	<p>XSS est l'abréviation de "Cross-Site Scripting".</p>
+	<p>Faille avec comme principe d'injecter du code directement dans le navigateur web dans le but de récupérer des données sensibles et personnelles. Elle agit du côté du client et non du serveur.
+	<br/>Cette faille est présente dans les sites Internet ne proposant pas de sécurité sur les données envoyées par les utilisateurs. Bien que très facile à contrer, elle est l'une des failles les plus importantes du web.</p>
+
+	<h2>Comment provoquer une faille XSS ?</h2>
+	<p>Il s'agit d'une modification de l'URL ou de l'envoi de formulaire permettant de récupérer les données et y ajouter des données/commandes/morceaux de code dans le but de récupérer les données des utilisateurs.</p>
+	<p>Il est possible d'utiliser du code JavaScript ou de créer des cookies pour dérober les données sensibles des utilisateurs.</p>
+
+	<h2>Plusieurs types de faille XSS :</h2>
+	<ul>
+		<li>La faille XSS non permanente (Les données ne sont pas stockées, et nous ne nous servons des données que de l'utilisateur sur le moment)</li>
+		<lI>La faille XSS permanente (Les données sont stockées et tous les utilisateurs peuvent subir la faille en se rendant sur un forum par exemple)</li>
+	</ul>
+	<h2>Les grandes actualités de la faille XSS :</h2>
+	<p><strong>2016 - Yahoo : </strong><a href="https://www.01net.com/actualites/yahoo-une-faille-permettait-de-lire-les-mails-de-n-importe-quel-utilisateur-1068806.html">Yahoo laisse une faille XSS laissant à disposition les mails de tous les utilisateurs.</a></p>
+	<p><strong>2017 - Cisco : </strong><a href="https://www.cert.ssi.gouv.fr/alerte/CERTFR-2017-ALE-001/">Faille permettant l'exécution du code à distance.</a></p>
+	<p><strong>2017 - Steam : </strong><a href="https://www.undernews.fr/hacking-hacktivisme/steam-une-dangereuse-faille-xss-corrigee.html">Faille permettant d'injecter du code dans les profils de tous les utilisateurs de la plateforme de jeux vidéo.</a></p>
+	<p><strong>2018 - IBM : </strong><a href="https://www.cert.ssi.gouv.fr/alerte/CERTFR-2017-ALE-001/">Failles qui permettaient à un utilisateur d'utiliser les privilèges root à distance sur des produits vulnérables. Les failles permettaient de contourner l'authentification, l'autre permettaient d'exécuter et télécharger un shell. La troisième pouvait donner les droits root.</a></p>
+	<p><strong>2020 - Discord : </strong><a href="https://www.zdnet.fr/actualites/l-application-de-bureau-de-discord-vulnerable-a-des-attaques-par-execution-de-codes-a-distance-39911553.htm">Faille permettant l'exécution du code à distance à cause de paramètre NodeJS mal paramétrés.</a></p>
+	<h2>Comment rester informé :</h2>
+	<p>Pour rester informé sur l'actualité de la faille XSS, je recommande un suivi de liens grâce à Google Actualités. (<a href="https://news.google.com">https://news.google.com</a>).</p>
+	<h2>Liens utiles :</h2>
+	<p><a href="https://fr.wikipedia.org/wiki/Cross-site_scripting">https://fr.wikipedia.org/wiki/Cross-site_scripting</a></p>
+	<p><a href="https://beta.hackndo.com/attaque-xss/">https://beta.hackndo.com/attaque-xss/</a></p>
+	<p><a href="https://zestedesavoir.com/articles/232/les-failles-xss/">https://zestedesavoir.com/articles/232/les-failles-xss/</a></p>
+	<p><a href="https://www.lemondeinformatique.fr/actualites/lire-github-scanne-le-code-a-la-recherche-de-failles-80579.html">https://www.lemondeinformatique.fr/actualites/lire-github-scanne-le-code-a-la-recherche-de-failles-80579.html</a></p>
+</div>
+<footer class="container-fluid">
+	<div class="row">
+		<div class="col-lg-4">
+			<nav class="nav footerNavbar">
+				<a class="nav-link" href="#">Contact</a>
+			</nav>
+		</div>
+		<div class="col-lg-4 text-center">
+			<span class="align-middle">2020 - 2021 - CHOMEL Colin</span>
+		</div>
+		<div class="col-lg-4">
+			<nav class="nav footerNavbar mr-auto">
+				<a class="nav-link" href="mailto:colin42660@gmail.com">Mail</a>
+				<a class="nav-link" href="https://github.com/Zekarant">GitHub</a>
+			</nav>
+		</div>
+	</div>
+</footer>
+</body>
+</html>
+<script type="text/javascript">
+	$(function(){
+		$('.repeat').click(function(){
+			var classes =  $(this).parent().attr('class');
+			$(this).parent().attr('class', 'animate');
+			var indicator = $(this);
+			setTimeout(function(){ 
+				$(indicator).parent().addClass(classes);
+			}, 30);
+		});
+	});
+</script>
