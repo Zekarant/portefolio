@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Portefolio Développeur Web - CHOMEL Colin</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
+	<link rel="stylesheet" type="text/css" href="style2.css">
+</head>
+<body>
+	<div class="loader">
+		<h1>On charge, on charge...</h1>
+	</div>
+	<script>
+		jQuery(window).load(function(){ jQuery(".loader").fadeOut("200"); });
+	</script>
+</body>
+<nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light">
+	<a class="navbar-brand" href="#">CHOMEL Colin</a>
+	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		<span class="navbar-toggler-icon"></span>
+	</button>
+
+	<div class="collapse navbar-collapse" id="navbarSupportedContent">
+		<ul class="navbar-nav ml-auto">
+			<li class="nav-item active">
+				<a class="nav-link" href="index.html">Accueil</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="projets.html">Projets</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="#">Parcours</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="#">Compétences</a>
+			</li>
+			<li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          CV
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">PDF</a>
+          <a class="dropdown-item" href="#">Word</a>
+        </div>
+      </li>
+		</ul>
+	</div>
+</nav>
+<div id="entete">
+	<h1 class="text-center" style="padding-top: 150px;">Mes projets</h1>
+	<hr class="separation">
+	<p class="text-center">Retrouver l'ensemble de mes projets</p>
+</div>
+<hr class="separation">
+<br/>
+<div class="container-fluid">
+	<div class="row">
+		<div class="col-lg-4">
+			<div class="content">
+				<a href="https://www.mangasfan.fr" target="_blank">
+					<div class="content-overlay"></div>
+					<img class="content-image" src="https://www.mangasfan.fr/images/banniere.webp">
+					<div class="content-details fadeIn-top">
+						<h3>Mangas'Fan</h3>
+						<hr class="content-separation">
+						<p>Mangas'Fan est un projet de site web réalisé par moi-même. Site web traitant de l'actualité des mangas, des animes et des jeux autour de ces domaines. Réservé aux passionnés.</p>
+						<hr class="content-separation">
+						<img src="images/bootstrap.png" class="petitesImages" />
+						<img src="images/html.png" class="petitesImages" />
+						<img src="images/css.png" class="petitesImages" />
+						<img src="images/javascript.png" class="petitesImages" />
+						<img src="images/php.png" class="petitesImages" />
+						<img src="images/mysql.png" class="petitesImages" />
+					</div>
+				</a>
+			</div>
+			<br/>
+		</div>
+		<div class="col-lg-4">
+			<div class="content">
+				<a href="https://www.mangasfan.fr" target="_blank">
+					<div class="content-overlay"></div>
+					<img class="content-image" src="https://media.discordapp.net/attachments/621363217779785738/722796733859627138/logo_1.png">
+					<div class="content-details fadeIn-top">
+						<h3>Mam's Ourson</h3>
+						<hr class="content-separation">
+						<p>Site web réalisé par moi-même pour une maison d'assistance maternelle dans le cadre de mon stage de première année de BTS SIO.</p>
+						<hr class="content-separation">
+						<img src="images/bootstrap.png" class="petitesImages" />
+						<img src="images/html.png" class="petitesImages" />
+						<img src="images/css.png" class="petitesImages" />
+						<img src="images/php.png" class="petitesImages" />
+						<img src="images/mysql.png" class="petitesImages" />
+					</div>
+				</a>
+			</div>
+			<br/>
+		</div>
+		<div class="col-lg-4">
+			<div class="content">
+				<a href="blog/index.php" target="_blank">
+					<div class="content-overlay"></div>
+					<img class="content-image" src="images/ticketing.png">
+					<div class="content-details fadeIn-top">
+						<h3>Projet de Ticketing</h3>
+						<hr class="content-separation">
+						<p>Pour l'épreuve E4 de mon BTS, j'ai du realiser un système de ticketing qui permet une gestion de ticket et d'état.</p>
+						<hr class="content-separation">
+						<img src="images/bootstrap.png" class="petitesImages" />
+						<img src="images/html.png" class="petitesImages" />
+						<img src="images/css.png" class="petitesImages" />
+						<img src="images/php.png" class="petitesImages" />
+						<img src="images/mysql.png" class="petitesImages" />
+					</div>
+				</a>
+			</div>
+			<br/>
+		</div>
+	</div>
+</div>
+<footer class="container-fluid">
+	<div class="row">
+		<div class="col-lg-4">
+			<nav class="nav footerNavbar">
+				<a class="nav-link" href="#">Contact</a>
+			</nav>
+		</div>
+		<div class="col-lg-4 text-center">
+			<span class="align-middle">2020 - CHOMEL Colin</span>
+		</div>
+		<div class="col-lg-4">
+			<nav class="nav footerNavbar mr-auto">
+				<a class="nav-link" href="#">Facebook</a>
+				<a class="nav-link" href="#">GitHub</a>
+				<a class="nav-link" href="#">Twitter</a>
+			</nav>
+		</div>
+	</div>
+</footer>
+</body>
+</html>
+<script type="text/javascript">
+	$(function(){
+		$('.repeat').click(function(){
+			var classes =  $(this).parent().attr('class');
+			$(this).parent().attr('class', 'animate');
+			var indicator = $(this);
+			setTimeout(function(){ 
+				$(indicator).parent().addClass(classes);
+			}, 30);
+		});
+	});
+</script>
