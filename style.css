@@ -288,14 +288,10 @@
     width: 50px;
     height: 100%;
 }
-footer 
+.footerNavbar 
 {
-    background: #4f6685;
-    height: auto;
-    color: white;
-    font-size: 15px;
-    padding-bottom: 10px;
-    padding-top: 10px;
+  background-color: #4f6685;
+    
 }
 .footerNavbar a{
     color: white;

@@ -11,13 +11,6 @@
 	<link rel="stylesheet" type="text/css" href="style2.css">
 </head>
 <body>
-	<div class="loader">
-		<h1>On charge, on charge...</h1>
-	</div>
-	<script>
-		jQuery(window).load(function(){ jQuery(".loader").fadeOut("200"); });
-	</script>
-</body>
 <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light">
 	<a class="navbar-brand" href="#">CHOMEL Colin</a>
 	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -52,7 +45,7 @@
 			<div class="content">
 				<a href="https://www.mangasfan.fr" target="_blank">
 					<div class="content-overlay"></div>
-					<img class="content-image" src="https://www.mangasfan.fr/images/banniere.webp">
+					<img class="content-image" src="https://www.mangasfan.fr/images/banniere.webp" style="height: 225px;">
 					<div class="content-details fadeIn-top">
 						<h3>Mangas'Fan</h3>
 						<hr class="content-separation">
@@ -71,9 +64,9 @@
 		</div>
 		<div class="col-lg-4">
 			<div class="content">
-				<a href="#" target="_blank">
+				<a href="https://github.com/Zekarant/mamourson" target="_blank">
 					<div class="content-overlay"></div>
-					<img class="content-image" src="https://media.discordapp.net/attachments/621363217779785738/722796733859627138/logo_1.png">
+					<img class="content-image" src="https://media.discordapp.net/attachments/621363217779785738/722796733859627138/logo_1.png" style="height: 225px;">
 					<div class="content-details fadeIn-top">
 						<h3>Mam's Ourson</h3>
 						<hr class="content-separation">
@@ -93,11 +86,11 @@
 			<div class="content">
 				<a href="blog/index.php" target="_blank">
 					<div class="content-overlay"></div>
-					<img class="content-image" src="https://www.pixenli.com/image/USCDvY87">
+					<img class="content-image" src="https://www.pixenli.com/image/USCDvY87" style="height: 225px;">
 					<div class="content-details fadeIn-top">
-						<h3>Portefolio - Leo BOURLIER</h3>
+						<h3>Portefolio - BOURLIER</h3>
 						<hr class="content-separation">
-						<p>Suite à la demande d'un ami, j'ai réalisé une page d'accueil pour son portefolio qui avait pour but de venir soutenir les différents projets de son année.</p>
+						<p>Suite à la demande d'un ami, j'ai réalisé une page d'accueil pour son portefolio qui avait pour but de voir les différents projets de son année.</p>
 						<hr class="content-separation">
 						<img src="images/html.png" class="petitesImages" />
 						<img src="images/css.png" class="petitesImages" />
@@ -110,7 +103,7 @@
 			<div class="content">
 				<a href="leo/html_page_principale.html" target="_blank">
 					<div class="content-overlay"></div>
-					<img class="content-image" src="images/ticketing.png">
+					<img class="content-image" src="images/ticketing.png" style="height: 225px;">
 					<div class="content-details fadeIn-top">
 						<h3>Projet de Ticketing</h3>
 						<hr class="content-separation">
@@ -130,7 +123,7 @@
 			<div class="content">
 				<a href="siteInes/index.html" target="_blank">
 					<div class="content-overlay"></div>
-					<img class="content-image" src="images/accueilInes.png">
+					<img class="content-image" src="images/accueilInes.png" style="height: 225px;">
 					<div class="content-details fadeIn-top">
 						<h3>Page d'accueil - BlindCat</h3>
 						<hr class="content-separation">
@@ -147,7 +140,7 @@
 			<div class="content">
 				<a href="https://github.com/Zekarant/projetLaravel" target="_blank">
 					<div class="content-overlay"></div>
-					<img class="content-image" src="images/laravel-projet.png">
+					<img class="content-image" src="images/laravel-projet.png" style="height: 225px;">
 					<div class="content-details fadeIn-top">
 						<h3>Système de classe inverse sous Laravel</h3>
 						<hr class="content-separation">
@@ -164,28 +157,49 @@
 			</div>
 			<br/>
 		</div>
+		<div class="col-lg-4">
+			<div class="content">
+				<a href="https://github.com/Zekarant/prestashop-stage-deuxieme-annee" target="_blank">
+					<div class="content-overlay"></div>
+					<img class="content-image" src="images/logofda.png" style="height: 225px;">
+					<div class="content-details fadeIn-top">
+						<h3>Prestashop - Deuxième année</h3>
+						<hr class="content-separation">
+						<p>Pour mon deuxième stage, j'ai réalisé un site e-commerce avec Prestashop</p>
+						<hr class="content-separation">
+						<img src="images/logopresta.png" class="petitesImages" />
+					</div>
+				</a>
+			</div>
+			<br/>
+		</div>
 	</div>
 </div>
-<footer class="container-fluid">
-	<div class="row">
-		<div class="col-lg-4">
-			<nav class="nav footerNavbar">
-				<a class="nav-link" href="mailto:colin42660@gmail.com">Contact</a>
-			</nav>
-		</div>
-		<div class="col-lg-4 text-center">
-			<span class="align-middle">2020 - 2021 - CHOMEL Colin</span>
-		</div>
-		<div class="col-lg-4">
-			<nav class="nav footerNavbar mr-auto">
-				<a class="nav-link" href="mailto:colin42660@gmail.com">Mail</a>
-				<a class="nav-link" href="https://github.com/Zekarant">GitHub</a>
-			</nav>
-		</div>
-	</div>
-</footer>
-</body>
-</html>
+<nav class="navbar footerNavbar navbar-expand-md">
+    <div class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="mailto:colin42660@gmail.com">Contact</a>
+            </li>
+        </ul>
+    </div>
+    <div class="mx-auto order-0">
+        <a class="navbar-brand mx-auto" href="#">CHOMEL Colin - 2020 - 2021</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".dual-collapse2">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    </div>
+    <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="colin42660[at]gmail[dot]com">Mail</a>
+            </li>
+            <li class="nav-item">
+               <a class="nav-link" href="https://github.com/Zekarant">GitHub</a>
+            </li>
+        </ul>
+    </div>
+</nav>
 <script type="text/javascript">
 	$(function(){
 		$('.repeat').click(function(){
@@ -198,3 +212,5 @@
 		});
 	});
 </script>
+</body>
+</html>
