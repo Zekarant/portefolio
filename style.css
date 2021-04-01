@@ -279,12 +279,6 @@
 .footerNavbar a{
   color: white;
   text-transform: none;
-  padding-top: 0;
-}
-.footerNavbar a:hover {
-  color: black;
-  text-transform: none;
-  padding-top: 0;
 }
 .imageReseau {
   width: 40px;
