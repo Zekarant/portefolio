@@ -13,7 +13,7 @@
 	text-transform: uppercase;
 }
 .titrePrincipal {
-	margin-top: 200px;
+	padding-top: 200px;
 }
 .separation {
   border-top: 1px solid grey;
@@ -130,7 +130,7 @@
 
 .two span {
   opacity: 0;
-  transform: translate(200px, -100px) scale(2);
+  transform: translate(100px, -50px) scale(2);
   animation: ballDrop .3s forwards;
 }
 
@@ -314,13 +314,13 @@
 
 @media screen and (max-width: 480px){
   .titrePrincipal {
-    margin-top: 100px;
-  }
-  #entete {
-    height: 325px;
+    padding-top: 100px;
   }
   .animate {
-    font-size: 25px; 
+    font-size: 25px;
+  }
+  #entete {
+    height: 300px;
   }
   .imageAbout, .lienAutres  {
     display: none;
