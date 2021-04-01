@@ -70,42 +70,27 @@
 	<p><a href="https://zestedesavoir.com/articles/232/les-failles-xss/">https://zestedesavoir.com/articles/232/les-failles-xss/</a></p>
 	<p><a href="https://www.lemondeinformatique.fr/actualites/lire-github-scanne-le-code-a-la-recherche-de-failles-80579.html">https://www.lemondeinformatique.fr/actualites/lire-github-scanne-le-code-a-la-recherche-de-failles-80579.html</a></p>
 </div>
-<nav class="navbar footerNavbar navbar-expand-md">
-    <div class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2">
-        <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-                <a class="nav-link" href="mailto:colin42660@gmail.com">Contact</a>
-            </li>
-        </ul>
-    </div>
-    <div class="mx-auto order-0">
-        <a class="navbar-brand mx-auto" href="#">CHOMEL Colin - 2020 - 2021</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".dual-collapse2">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-    </div>
-    <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
-        <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-                <a class="nav-link" href="colin42660[at]gmail[dot]com">Mail</a>
-            </li>
-            <li class="nav-item">
-               <a class="nav-link" href="https://github.com/Zekarant">GitHub</a>
-            </li>
-        </ul>
-    </div>
-</nav>
-<script type="text/javascript">
-	$(function(){
-		$('.repeat').click(function(){
-			var classes =  $(this).parent().attr('class');
-			$(this).parent().attr('class', 'animate');
-			var indicator = $(this);
-			setTimeout(function(){ 
-				$(indicator).parent().addClass(classes);
-			}, 30);
-		});
-	});
-</script>
 </body>
+<footer class="footerNavbar pt-2">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-lg-4 d-none d-sm-block">
+					<a class="nav-link" href="mailto:colin42660@gmail.com">Contact</a>
+				</div>
+				<div class="col-lg-4 text-center">
+					<a class="nav-link" href="/">CHOMEL Colin - 2020 - 2021</a>
+				</div>
+				<div class="col-lg-4 d-none d-sm-block">
+					<ul class="nav justify-content-end">
+						<li class="nav-item">
+							<a class="nav-link" aria-current="page" href="mailto:colin42660[at]gmail[dot]com">Mail</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="https://github.com/Zekarant">GitHub</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</footer>
 </html>
