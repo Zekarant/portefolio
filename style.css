@@ -346,7 +346,7 @@
   .animate {
     font-size: 25px; 
   }
-  .imageAbout {
+  .imageAbout, .lienAutres  {
     display: none;
   }
   .aboutTitle, .othersTitle {
