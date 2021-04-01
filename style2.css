@@ -9,6 +9,9 @@
 .nav-link {
 	text-transform: uppercase;
 }
+.navbar {
+	border-bottom: 3px solid grey;
+}
 .content {
   position: relative;
   width: 95%;
