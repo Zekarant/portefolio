@@ -16,16 +16,16 @@
 	margin-top: 200px;
 }
 .separation {
-    border-top: 1px solid grey;
-    width: 50%;
-    float: right;
-    margin-top: 30px;
+  border-top: 1px solid grey;
+  width: 50%;
+  float: right;
+  margin-top: 30px;
 }
 .separation2 {
 	border-top: 1px solid grey;
 	width: 50%;
-    float: left;
-    margin-top: 30px;
+  float: left;
+  margin-top: 30px;
 }
 .loader{
 	background: url('https://icon-library.com/images/waiting-icon-gif/waiting-icon-gif-1.jpg') 50% 50% no-repeat rgba(255, 255, 255, 0.8);
@@ -54,153 +54,153 @@
 
 
 .banniere {
-    position: relative;
-    z-index: 0;
-    background-color: #ededed;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    min-height: 100vh;
-    overflow: hidden;
+  position: relative;
+  z-index: 0;
+  background-color: #ededed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  overflow: hidden;
 }
 
 .animate {
-    font-size: 50px; 
+  font-size: 50px; 
 }
 
 .animate span {
-    display: inline-block;
+  display: inline-block;
 }
 
 
 
 .animate span:nth-of-type(2) {
-    animation-delay: .05s;
+  animation-delay: .05s;
 }
 .animate span:nth-of-type(3) {
-    animation-delay: .1s;
+  animation-delay: .1s;
 }
 .animate span:nth-of-type(4) {
-    animation-delay: .15s;
+  animation-delay: .15s;
 }
 .animate span:nth-of-type(5) {
-    animation-delay: .2s;
+  animation-delay: .2s;
 }
 .animate span:nth-of-type(6) {
-    animation-delay: .25s;
+  animation-delay: .25s;
 }
 .animate span:nth-of-type(7) {
-    animation-delay: .3s;
+  animation-delay: .3s;
 }
 .animate span:nth-of-type(8) {
-    animation-delay: .35s;
+  animation-delay: .35s;
 }
 .animate span:nth-of-type(9) {
-    animation-delay: .4s;
+  animation-delay: .4s;
 }
 .animate span:nth-of-type(10) {
-    animation-delay: .45s;
+  animation-delay: .45s;
 }
 .animate span:nth-of-type(11) {
-    animation-delay: .5s;
+  animation-delay: .5s;
 }
 .animate span:nth-of-type(12) {
-    animation-delay: .55s;
+  animation-delay: .55s;
 }
 .animate span:nth-of-type(13) {
-    animation-delay: .6s;
+  animation-delay: .6s;
 }
 .animate span:nth-of-type(14) {
-    animation-delay: .65s;
+  animation-delay: .65s;
 }
 .animate span:nth-of-type(15) {
-    animation-delay: .7s;
+  animation-delay: .7s;
 }
 .animate span:nth-of-type(16) {
-    animation-delay: .75s;
+  animation-delay: .75s;
 }
 .animate span:nth-of-type(17) {
-    animation-delay: .8s;
+  animation-delay: .8s;
 }
 .animate span:nth-of-type(18) {
-    animation-delay: .85s;
+  animation-delay: .85s;
 }
 .animate span:nth-of-type(19) {
-    animation-delay: .9s;
+  animation-delay: .9s;
 }
 .animate span:nth-of-type(20) {
-    animation-delay: .95s;
+  animation-delay: .95s;
 }
 .animate span:nth-of-type(21) {
-    animation-delay: 1.00s;
+  animation-delay: 1.00s;
 }
 .animate span:nth-of-type(22) {
-    animation-delay: 1.05s;
+  animation-delay: 1.05s;
 }
 .animate span:nth-of-type(23) {
-    animation-delay: 1.10s;
+  animation-delay: 1.10s;
 }
 .animate span:nth-of-type(24) {
-    animation-delay: 1.15s;
+  animation-delay: 1.15s;
 }
 .animate span:nth-of-type(25) {
-    animation-delay: 1.20s;
+  animation-delay: 1.20s;
 }
 .animate span:nth-of-type(26) {
-    animation-delay: 1.25s;
+  animation-delay: 1.25s;
 }
 
 /* Animation Two */
 
 .two span {
-    opacity: 0;
-    transform: translate(200px, -100px) scale(2);
-    animation: ballDrop .3s forwards;
+  opacity: 0;
+  transform: translate(200px, -100px) scale(2);
+  animation: ballDrop .3s forwards;
 }
 
 @keyframes ballDrop {
-    60% {
-        transform: translate(0, 20px) rotate(-180deg) scale(.5);
-    }
+  60% {
+    transform: translate(0, 20px) rotate(-180deg) scale(.5);
+  }
 
-    100% {
-        transform: translate(0) rotate(0deg) scale(1);
-        opacity: 1;
-    }
+  100% {
+    transform: translate(0) rotate(0deg) scale(1);
+    opacity: 1;
+  }
 }
 
 /* Animation Seven */
 
 
 .six span {
-    opacity: 0;
-    transform: translate(-150px, 0) scale(.3);
-    animation: leftRight .5s forwards;
+  opacity: 0;
+  transform: translate(-150px, 0) scale(.3);
+  animation: leftRight .5s forwards;
 }
 
 .aboutTitle {
-    letter-spacing: 40px;
-    text-transform: uppercase;
-    margin-top: 60px;
-    font-size: 50px;
-    position: relative;
-    z-index: 1;
+  letter-spacing: 40px;
+  text-transform: uppercase;
+  margin-top: 60px;
+  font-size: 50px;
+  position: relative;
+  z-index: 1;
 }
 
 .othersTitle {
-    letter-spacing: 40px;
-    text-transform: uppercase;
-    font-size: 50px;
-    margin-top: 60px;
+  letter-spacing: 40px;
+  text-transform: uppercase;
+  font-size: 50px;
+  margin-top: 60px;
 }
 
 .imageAbout {
-    background-image: url('images/4.png');
-    height: 400px;
-    margin-top: -30px;
-    -webkit-box-shadow: 130px -100px 2px -50px;
-    -moz-box-shadow: 130px -100px 2px -50px;
-    box-shadow: 130px -100px 2px -50px #4f6685;
+  background-image: url('images/4.png');
+  height: 400px;
+  margin-top: -30px;
+  -webkit-box-shadow: 130px -100px 2px -50px;
+  -moz-box-shadow: 130px -100px 2px -50px;
+  box-shadow: 130px -100px 2px -50px #4f6685;
 }
 
 *, *:before, *:after{
@@ -219,7 +219,7 @@
 .content {
   position: relative;
   width: 95%;
- 
+  
   margin: auto;
   border: 1px solid black;
   overflow: hidden;
@@ -266,7 +266,7 @@
 }
 
 .content-separation {
-    border-top: 1px solid grey;
+  border-top: 1px solid grey;
 }
 .content:hover .content-details{
   top: 50%;
@@ -292,57 +292,66 @@
 }
 
 .petitesImages {
-    width: 50px;
-    height: 100%;
+  width: 50px;
+  height: 100%;
 }
 .footerNavbar 
 {
   background-color: #4f6685;
-    
+  
 }
 .footerNavbar a{
-    color: white;
-    text-transform: none;
-    padding-top: 0;
+  color: white;
+  text-transform: none;
+  padding-top: 0;
 }
 .footerNavbar a:hover {
-    color: black;
-    text-transform: none;
-    padding-top: 0;
+  color: black;
+  text-transform: none;
+  padding-top: 0;
 }
 .imageReseau {
   width: 40px;
 }
 
 @keyframes leftRight {
-    40% {
-        transform: translate(50px, 0) scale(.7);
-        opacity: 1;
-        color: grey;
-    }
+  40% {
+    transform: translate(50px, 0) scale(.7);
+    opacity: 1;
+    color: grey;
+  }
 
-    60% {
-        color: #0f40ba;
-    }
+  60% {
+    color: #0f40ba;
+  }
 
-    80% {
-        transform: translate(0) scale(2);
-        opacity: 0;
-    }
+  80% {
+    transform: translate(0) scale(2);
+    opacity: 0;
+  }
 
-    100% {
-        transform: translate(0) scale(1);
-        opacity: 1;
-    }
+  100% {
+    transform: translate(0) scale(1);
+    opacity: 1;
+  }
 }
 
 @media screen and (max-width: 480px){
+  .titrePrincipal {
+    margin-top: 100px;
+  }
+  #entete {
+    height: 325px;
+  }
+  .animate {
+    font-size: 30px; 
+  }
   .imageAbout {
     display: none;
   }
   .aboutTitle, .othersTitle {
-    letter-spacing: 10px;
+    letter-spacing: 5px;
     text-transform: uppercase;
-    font-size: 40px;
-}
+    font-size: 30px;
+  }
 }
