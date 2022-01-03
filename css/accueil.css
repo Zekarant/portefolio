@@ -1,0 +1,59 @@
+#entete {
+	background-image: url('../images/header.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	margin-top: 100px;
+	height: 500px;
+}
+
+.mainTitle {
+	font-size: 70px;
+	text-transform: uppercase;
+	text-align: center;
+	padding-top: 100px;
+	padding-left: 65%;
+	letter-spacing: 30px;
+}
+
+.secondaryTitle {
+	text-align: center;
+	text-transform: uppercase;
+	padding-left: 76%;
+	letter-spacing: 20px;
+	font-size: 16px;
+}
+
+.introduction {
+	padding-top: 250px;
+	padding-left: 5%;
+	width: 600px;
+	text-align: center;
+}
+
+hr.separation {
+	width: 50%;
+	margin-top: 60px;
+	float: right;
+}
+
+hr.separation2 {
+	width: 50%;
+	margin-top: 60px;
+}
+
+.aboutTitle {
+  letter-spacing: 20px;
+  text-transform: uppercase;
+  margin-top: 130px;
+  font-size: 40px;
+  padding-right: 20%;
+  position: relative;
+  z-index: 1;
+}
+.imageAbout {
+  background-image: url('../images/about.png');
+  height: 380px;
+  -webkit-box-shadow: 80px -90px 2px -50px;
+  -moz-box-shadow: 80px -90px 2px -50px;
+  box-shadow: 80px -90px 2px -50px #4f6685;
+}

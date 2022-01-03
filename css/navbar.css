@@ -1,0 +1,150 @@
+* 
+{
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	min-height: 100em;
+	background-color: #fff;
+}
+
+.navigation {
+	position: fixed;
+	top: 10px;
+	left: 10px;
+	bottom: 10px;
+	width: 0px;
+	border-radius: 20px;
+	box-sizing: initial;
+	transition: width 2s;
+	background: #dad8d7;
+	overflow-x: hidden;
+}
+
+.navigation.active {
+	width: 300px;
+}
+
+.list.active {
+	background-color: #fff;
+}
+
+.navigation ul li.active a {
+	color: blue;
+}
+
+.navigation ul {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	padding-left: 10px;
+	padding-top: 20px;
+}
+
+.navigation ul li {
+	position: relative;
+	list-style: none;
+	border-top-left-radius: 20px;
+	border-bottom-left-radius: 20px;
+}
+
+.navigation ul li a {
+	position: relative;
+	display: block;
+	display: flex;
+	text-decoration: none;
+	color: black;
+	padding-left: 20px;
+}
+.navigation ul li b:nth-child(1){
+	position: absolute;
+	top: -20px;
+	height: 20px;
+	width: 100%;
+	background: #fff;
+	display: none;
+}
+.navigation ul li b:nth-child(1)::before{
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	background: #dad8d7;
+	border-bottom-right-radius: 20px;
+}
+.navigation ul li b:nth-child(2){
+	position: absolute;
+	bottom: -20px;
+	height: 20px;
+	width: 100%;
+	background: #fff;
+	display: none;
+}
+
+.navigation ul li b:nth-child(2)::before{
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	background: #dad8d7;
+	border-top-right-radius: 20px;
+}
+.navigation ul li.active b:nth-child(1), .navigation ul li.active b:nth-child(2) {
+	display: block;
+}
+
+.icon {
+	position: relative;
+	display: block;
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+}
+
+.title {
+	display: block;
+	padding-left: 20px;
+	height: 60px;
+	line-height: 60px;
+	white-space: normal;
+}
+
+.toggle {
+	position: fixed;
+	top: 20px;
+	left: 10px;
+	width: 50px;
+	height: 50px;
+	border-radius: 20px;
+	cursor: pointer;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition-property: opacity, left, top, height;
+    transition-duration: 2s, 2s;
+}
+
+.toggle.active {
+	left: 320px;
+}
+
+.toggle i {
+	position: absolute;
+	color: black;
+	font-size: 25px;
+	display: none;
+}
+
+.toggle i.open, .toggle.active i.close {
+	display: block;
+}
+
+.toggle.active i.open, .toggle i.close {
+	display: none;
+}
