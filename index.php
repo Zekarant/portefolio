@@ -31,5 +31,70 @@
 		</div>
 	</div>
 	<hr class="separation2">
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-lg-4">
+				<div class="content">
+					<a href="https://www.mangasfan.fr" target="_blank">
+						<div class="content-overlay"></div>
+						<img class="content-image" src="https://www.mangasfan.fr/images/banniere.webp">
+						<div class="content-details fadeIn-top">
+							<h3>Mangas'Fan</h3>
+							<hr class="content-separation">
+							<p>Mangas'Fan est un projet de site web réalisé par moi-même.</p>
+							<hr class="content-separation">
+							<img src="images/bootstrap.png" class="petitesImages" />
+							<img src="images/html.png" class="petitesImages" />
+							<img src="images/css.png" class="petitesImages" />
+							<img src="images/javascript.png" class="petitesImages" />
+							<img src="images/php.png" class="petitesImages" />
+							<img src="images/mysql.png" class="petitesImages" />
+						</div>
+					</a>
+				</div>
+				<br/>
+			</div>
+			<div class="col-lg-4">
+				<div class="content">
+					<a href="https://github.com/Zekarant/mamourson" target="_blank">
+						<div class="content-overlay"></div>
+						<img class="content-image" src="https://media.discordapp.net/attachments/621363217779785738/722796733859627138/logo_1.png">
+						<div class="content-details fadeIn-top">
+							<h3>Mam's Ourson</h3>
+							<hr class="content-separation">
+							<p>Site web réalisé pour le stage de première année du BTS (Association Mam'Ourson)</p>
+							<hr class="content-separation">
+							<img src="images/bootstrap.png" class="petitesImages" />
+							<img src="images/html.png" class="petitesImages" />
+							<img src="images/css.png" class="petitesImages" />
+							<img src="images/php.png" class="petitesImages" />
+							<img src="images/mysql.png" class="petitesImages" />
+						</div>
+					</a>
+				</div>
+				<br/>
+			</div>
+			<div class="col-lg-4">
+				<div class="content">
+					<a href="blog/index.php" target="_blank">
+						<div class="content-overlay"></div>
+						<img class="content-image" src="images/ticketing.png">
+						<div class="content-details fadeIn-top">
+							<h3>Projet de Ticketing</h3>
+							<hr class="content-separation">
+							<p>Système de ticketing (programmée pour l'épreuve E4 du BTS)</p>
+							<hr class="content-separation">
+							<img src="images/bootstrap.png" class="petitesImages" />
+							<img src="images/html.png" class="petitesImages" />
+							<img src="images/css.png" class="petitesImages" />
+							<img src="images/php.png" class="petitesImages" />
+							<img src="images/mysql.png" class="petitesImages" />
+						</div>
+					</a>
+				</div>
+				<br/>
+			</div>
+		</div>
+	</div>
 </body>
 </html>
