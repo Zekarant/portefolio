@@ -1,0 +1,193 @@
+/* Partie principal du site */
+html {
+	font-family: 'Alef', sans-serif;
+	font-size: 15px;
+}
+body {
+	margin: 0;
+}
+/* Logo principal du site */
+#logo {
+	display: block;
+    margin: auto;
+	padding-top: 5%;
+	width: 25%;
+}
+/* Barre de navigation */
+.nav-principale {
+	background-color: #222222;
+	margin-top: 100px;
+	text-align: center;
+	margin-bottom: 0;
+}
+.ul-principal, .li-principal {
+	display : inline-block;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	margin-right: 20px;
+}
+.boutons {
+	text-decoration: none;
+	padding: 10px;
+	border-radius: 20px 20px 20px 20px;
+	color: #ffffff;
+	background-color: #7c7c7c;
+	font-size: 35px;
+}
+a:hover {
+	color: black;
+}
+/* Bloc "A propos de" */
+.bloc-presentation {
+	background-color: #000000;
+	color: #FFFFFF;
+}
+.bloc-secondaire {
+	width: 65%;
+	margin: auto;
+	padding-bottom: 15px;
+}
+#conteneur
+{
+    display: flex;
+    justify-content: flex-start;
+    padding: 50px;
+}
+.element-footer {
+	width: 30%;
+}
+.element:nth-child(1) {
+	margin-left: 15%;
+	width: 25%;
+}
+.element:nth-child(2) {
+	margin-left: 5%;
+	flex: 0.9;
+	padding-top: 35px;
+	font-size: 25px;
+}
+.photo {
+	width: 250px;
+}
+.effet
+{
+    text-align: center;
+    display: inline-block;
+    position: relative;
+}
+.effet:hover p.texte 
+{
+    opacity: 1;
+}
+.effet p.texte
+{
+    width: 100%;
+    bottom: 0;
+    opacity: 0;
+    display: block;
+    position: absolute;
+    -webkit-transition: opacity .5s ease-in-out;
+    -moz-transition: opacity .5s ease-in-out;
+    -o-transition: opacity .5s ease-in-out;
+    -ms-transition: opacity .5s ease-in-out;
+}
+.lien-effet {
+	text-decoration: none;
+	padding: 5px;
+	border-radius: 10px 10px 10px 10px;
+	color: #ffffff;
+	background-color: #7c7c7c;
+}
+
+/* Bloc réalisations */
+.bloc-realisation {
+	text-align: center;
+	padding-top: 40px;
+}
+#conteneur-images, #conteneur-contact {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 60px;
+}
+.image_rea {
+	width: 100%;
+	height: auto;
+}
+/* Bloc contact */
+#conteneur-contact {
+}
+.titre-contact {
+	font-size: 30px;
+}
+.moyens-contact {
+	font-size: 20px;
+}
+.reseaux-sociaux {
+	padding-top: 15px;
+	text-align: center;
+}
+.reseaux-images img {
+	height: 70px;
+	padding-right: 50px;
+}
+.contact:nth-child(1) {
+	margin-right: 100px;
+}
+.contact:nth-child(2) {
+	padding-top: 70px;
+	margin-left: 100px;
+}
+.envoi_mail
+{
+	padding: 5px;
+	color: #7c7c7c;
+	background-color: #ffffff;
+	padding-right: 400px;
+	padding-left: 40px;
+}
+#grosse-boite {
+	height: 250px;
+}
+/* Footer */
+#footer {
+	display: flex;
+	padding-top: 40px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.lien-footer {
+	text-decoration: none;
+	padding: 5px;
+	border-radius: 10px 10px 10px 10px;
+	color: #ffffff;
+	background-color: #7c7c7c;
+}
+.footer-ul, .footer-li {
+	display: inline-block;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.logo_bas {
+	width: 50%;
+	display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.image-contact-footer {
+	height: 30px;
+	padding-left: 0px;
+}
+#autre {
+	display: flex;
+	padding-bottom: 100px;
+	font-size: 30px;
+}
+.footer-1:nth-child(1){
+	flex: 0.4;
+	text-align: center;
+}
+.footer-1:nth-child(2){
+	flex: 0.6;
+	text-align: center;
+}

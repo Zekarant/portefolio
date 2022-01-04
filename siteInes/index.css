@@ -1,0 +1,52 @@
+body {
+	margin: auto;
+	background-color: #006400;
+}
+header {
+	background-color: #ffd700;
+	height: 300px;
+}
+
+.principalTitle {
+	padding-top: 120px;
+	margin: auto;
+	text-align: center;
+	top: 50%;
+	font-size: 70px;
+	width: 80%;
+}
+
+.imageLogo {
+	width: 300px;
+	display: block;
+	margin: auto;
+	padding-top: 90px;
+}
+
+.titreSecond {
+	text-align: center;
+	width: 40%;
+	display: block;
+	margin: auto;
+	font-style: italic;
+}
+.colonnesPresentation {
+	margin-top: 20px;
+}
+.titrePresentation {
+	text-decoration: underline solid red;
+}
+
+.imagePresentation, .imagePresentation2 {
+	width: 95%;
+	display: block;
+	margin: auto;
+}
+
+.imagePresentation2 {
+	width: 45%;
+}
+
+.imageOrganigramme {
+	width: 100%;
+}
