@@ -1,33 +1,54 @@
+body {
+  width: 100%;
+}
+
+.flexbox {
+  display: flex;
+  position: fixed;
+  padding-left: 5em;
+  padding-right: 5em;
+  padding-top: 0.2em;
+  left: 0;
+  right: 0;
+  justify-content: space-between;
+  z-index: 1;
+  top: 0;
+  height: 2.5em;
+  font-size: 2em;
+  background-color: white;
+}
+
 #entete {
 	background-image: url('../images/header.png');
 	background-repeat: no-repeat;
 	background-position: center;
-	margin-top: 100px;
 	height: 500px;
 }
 
 .mainTitle {
 	font-size: 70px;
 	text-transform: uppercase;
-	text-align: center;
 	padding-top: 100px;
-	padding-left: 65%;
-	letter-spacing: 30px;
+  text-align: center;
+  letter-spacing: 30px;
+  width: calc(100% - 1050px);
+  margin-left: 13.5em;
 }
 
 .secondaryTitle {
 	text-align: center;
 	text-transform: uppercase;
-	padding-left: 76%;
 	letter-spacing: 20px;
 	font-size: 16px;
+  width: calc(100% - 1050px);
+  margin-left: 62.5em;
 }
 
 .introduction {
 	padding-top: 250px;
-	padding-left: 5%;
-	width: 600px;
 	text-align: center;
+  width: calc(100% - 60em);
+  margin-left: 10em;
 }
 
 hr.separation {
@@ -48,14 +69,30 @@ hr.separation2 {
   font-size: 40px;
   padding-right: 20%;
   position: relative;
-  z-index: 1;
 }
+
+.titleProjets{
+ letter-spacing: 20px;
+ text-transform: uppercase;
+ margin-top: 1em;
+ font-size: 40px;
+}
+
 .imageAbout {
   background-image: url('../images/about.png');
   height: 380px;
   -webkit-box-shadow: 80px -90px 2px -50px;
   -moz-box-shadow: 80px -90px 2px -50px;
   box-shadow: 80px -90px 2px -50px #4f6685;
+}
+
+
+.imageContact {
+  background-image: url('../images/about.png');
+  background-repeat: no-repeat;
+  width: 20em;
+  height: 380px;
+  box-shadow: 80px -60px 2px -20px #4f6685;
 }
 
 
@@ -98,10 +135,6 @@ hr.separation2 {
 
 .content:hover .content-overlay{
   opacity: 1;
-}
-
-.content-image{
-  width: 100%;
 }
 
 .content-details {
@@ -151,3 +184,75 @@ hr.separation2 {
   width: 50px;
   height: 100%;
 }
+
+.bouton {
+  background-color: #4f6685;
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.bouton:hover, .boutonProjet:hover {
+  color: grey;
+}
+
+.boutonProjet {
+  color: white;
+  padding: 10px;
+  text-decoration: none;
+  border: 1px solid white;
+}
+
+.noLink {
+  text-decoration: none;
+}
+
+.form-control {
+  border: 1px solid #4f6685;
+}
+
+.footer-bottom {
+  margin-top: 20px;
+  background: #4f6685;
+  padding: 30px;
+  width: auto;
+  color: white;
+  font-size: 18px;
+  text-align: center;
+
+}
+
+@media screen and (max-width: 480px){
+  #entete {
+    margin-top:  0px;
+    height: 65vh;
+  }
+  .mainTitle, .secondaryTitle, .introduction {
+    width: 100%;
+    margin-left: 0vh;
+  }
+  .secondaryTitle {
+    padding-top: 35px;
+  }
+  .introduction {
+    padding-top: 5px;
+    width: 90%;
+    display: block;
+    margin: auto;
+  }
+  .imageAbout {
+    width:  80%;
+    display: block;
+    margin: auto;
+    margin-top: 70px;
+  }
+  .aboutTitle {
+    margin-top: 100px;
+    padding-right: 0px;
+  }
+  .imageContact {
+    width: 80%;
+    margin-top: 50px;
+  }
+}
+
